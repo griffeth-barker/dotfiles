@@ -1,10 +1,12 @@
 {
   "security.workspace.trust.untrustedFiles": "open",
   "workbench.sideBar.location": "right",
+  "workbench.colorTheme": "GitHub Dark",
   "editor.tabSize": 2,
   "editor.tabCompletion": "on",
   "redhat.telemetry.enabled": false,
   "git.confirmSync": false,
   "git.autofetch": true,
-  "chat.commandCenter.enabled": false
+  "chat.commandCenter.enabled": false,
+  "terminal.integrated.defaultProfile.linux": "pwsh"
 }
