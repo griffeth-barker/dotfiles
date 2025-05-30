@@ -88,6 +88,7 @@
     ghostty
     discord
     signal-desktop
+    telegram-desktop
     spotify
     bitwarden-desktop
     powershell
