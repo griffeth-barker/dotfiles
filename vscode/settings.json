@@ -1,5 +1,10 @@
 {
-    "workbench.sideBar.location": "right",
-    "editor.tabSize": 2,
-    "editor.tabCompletion": "on"
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.sideBar.location": "right",
+  "editor.tabSize": 2,
+  "editor.tabCompletion": "on",
+  "redhat.telemetry.enabled": false,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "chat.commandCenter.enabled": false
 }
