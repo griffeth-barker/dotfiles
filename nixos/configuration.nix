@@ -92,38 +92,44 @@
   # Install firefox.
   programs.firefox.enable = true;
 
+  # Install steam.
+  programs.steam.enable = true;
+
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
-    neovim
-    curl
-    wget
-    ghostty
-    discord
-    signal-desktop
-    spotify
-    bitwarden-desktop
-    powershell
-    oh-my-posh
-    neofetch
-    virtualbox
-    docker
-    docker-compose
-    vscode
-    (vscode-with-extensions.override {
-        vscodeExtensions = with vscode-extensions; [
-          ms-vscode.powershell
-          gruntfuggly.todo-tree
-          github.github-vscode-theme
-          supermaven.supermaven
-          oderwat.indent-rainbow
-          mechatroner.rainbow-csv
-        ];
+  #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
+  #  wget
+  neovim
+  curl
+  wget
+  ghostty
+  discord
+  signal-desktop
+  spotify
+  bitwarden-desktop
+  powershell
+  oh-my-posh
+  neofetch
+  virtualbox
+  docker
+  docker-compose
+  obsidian
+  vscode
+  (vscode-with-extensions.override {
+      vscodeExtensions = with vscode-extensions; [
+        ms-vscode.powershell
+        gruntfuggly.todo-tree
+        github.github-vscode-theme
+        supermaven.supermaven
+        oderwat.indent-rainbow
+        mechatroner.rainbow-csv
+      ];
     })
-];
+  ];
 
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
