@@ -1,10 +1,16 @@
 title = Ghostty
+config-default-files = false
+working-directory = ~
+command = pwsh
 clipboard-read = allow
 clipboard-write = allow
 copy-on-select = true
-clipboard-paste-protection = false
 window-theme = system
+window-padding-balance = true
+background-opacity = 0.65
+background-blur = 5
 theme = SoftServer
+bold-is-bright = true
 background = #242626
 foreground = #99a3a2
 selection-background = #7f8786
@@ -28,3 +34,8 @@ palette = 13=#606edf
 palette = 14=#64e39c
 palette = 15=#d2e0de
 font-family = Noto Sans Mono
+font-family-bold = Noto Sans Mono
+font-family-italic = Noto Sans Mono
+font-family-bold-italic = Noto Sans Mono
+keybind = ctrl+c=copy_to_clipboard
+keybind = ctrl+v=paste_from_clipboard
