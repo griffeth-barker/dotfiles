@@ -1,0 +1,148 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "id": "User.copy.644BA8F2"
+        },
+        {
+            "command": "paste",
+            "id": "User.paste"
+        },
+        {
+            "command": "find",
+            "id": "User.find"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "id": "User.splitPane.A6751878"
+        }
+    ],
+    "copyFormatting": "none",
+    "copyOnSelect": true,
+    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+    "initialCols": 200,
+    "initialRows": 45,
+    "keybindings": 
+    [
+        {
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "User.paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "id": "User.splitPane.A6751878",
+            "keys": "alt+shift+d"
+        }
+    ],
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "colorScheme": "Dark+",
+            "tabTitle": null
+        },
+        "list": 
+        [
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+                "hidden": false,
+                "name": "Git Bash",
+                "source": "Git"
+            },
+            {
+                "commandline": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "guid": "{3da5c56e-8fa9-4624-9ecf-55969eb31ce1}",
+                "hidden": false,
+                "name": "Exchange Server",
+                "tabTitle": "Exchange Server"
+            },
+            {
+                "colorScheme": "ForestBlue",
+                "experimental.retroTerminalEffect": false,
+                "font": 
+                {
+                    "face": "UbuntuMono Nerd Font Mono",
+                    "size": 14
+                },
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "name": "PowerShell",
+                "opacity": 49,
+                "source": "Windows.Terminal.PowershellCore",
+                "useAcrylic": true
+            }
+        ]
+    },
+    "schemes": 
+    [
+        { // ForestBlue theme
+            "background": "#051519",
+            "black": "#333333",
+            "blue": "#8ED0CE",
+            "brightBlack": "#3D3D3D",
+            "brightBlue": "#39A7A2",
+            "brightCyan": "#6096BF",
+            "brightGreen": "#6BB48D",
+            "brightPurple": "#7E62B3",
+            "brightRed": "#FB3D66",
+            "brightWhite": "#E2D8CD",
+            "brightYellow": "#30C85A",
+            "cursorColor": "#9E9ECB",
+            "cyan": "#31658C",
+            "foreground": "#E2D8CD",
+            "green": "#92D3A2",
+            "name": "ForestBlue",
+            "purple": "#5E468C",
+            "red": "#F8818E",
+            "selectionBackground": "#4D4D4D",
+            "white": "#E2D8CD",
+            "yellow": "#1A8E63"
+        }
+    ],
+    "showTabsInTitlebar": true,
+    "themes": [],
+    "useAcrylicInTabRow": true
+}
